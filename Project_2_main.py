@@ -1,6 +1,7 @@
 import os
 from Controller import *
 
+
 def main():
     app = QApplication([])
     window = Controller()
@@ -8,6 +9,5 @@ def main():
     app.exec_()
 
 
-
-if __name__=='__main__':
+if __name__ == '__main__':
     main()
